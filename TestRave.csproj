@@ -146,6 +146,8 @@
     <Compile Include="ViewModel\ReportIncidentViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Data_IncidentType.sql" />
+    <Content Include="App_Data\DB_CityIncident_script.sql" />
     <Content Include="Content\bootstrap-select.css" />
     <Content Include="Content\bootstrap-select.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -309,9 +311,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\ReportIncident.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
